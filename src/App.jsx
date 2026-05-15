@@ -4,9 +4,6 @@ import {
   Home, Plane, Passport, MapPin, MapPinIcon, Zap, Upload, 
   ChevronDown, ChevronUp, MoreVertical, Copy, AlertCircle
 } from 'lucide-react';
-import ProfileManager from './components/ProfileManager';
-import PrintTemplate from './components/PrintTemplate';
-import SummaryPanel from './components/SummaryPanel';
 
 const TravelQuotationSystem = () => {
   const [activeTab, setActiveTab] = useState('dashboard');
